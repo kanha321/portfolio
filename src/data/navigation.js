@@ -15,5 +15,5 @@ export const footerLinks = [
   { url: 'mailto:devkanhaji321@gmail.com', label: 'Email me', iconName: 'Mail' },
   { url: 'https://github.com/kanha321', label: 'GitHub', iconName: 'GitHub' },
   { url: 'https://linkedin.com/in/kanha321', label: 'LinkedIn', iconName: 'Linkedin' },
-  { url: '/Shubhams_CV.pdf', label: 'Download CV (PDF)', iconName: 'FileText', download: true }
+  { url: `${import.meta.env.BASE_URL}Shubhams_CV.pdf`, label: 'Download CV (PDF)', iconName: 'FileText', download: true }
 ]

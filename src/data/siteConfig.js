@@ -8,14 +8,14 @@ export const siteConfig = {
   email: 'devkanhaji321@gmail.com',
   phone: '+91-9752461815',
   location: 'Prayagraj (Allahabad) / Delhi, India',
-  resumeUrl: '/Shubhams_CV.pdf',
+  resumeUrl: `${import.meta.env.BASE_URL}Shubhams_CV.pdf`,
   social: {
     github: 'https://github.com/kanha321',
     linkedin: 'https://linkedin.com/in/kanha321',
     email: 'mailto:devkanhaji321@gmail.com'
   },
   mascot: {
-    image: '/ram.png',
+    image: `${import.meta.env.BASE_URL}ram.png`,
     bubbleText: "Android developer with production experience, studying at MNNIT Allahabad. Check out my work history and projects below!",
     alt: 'Mascot'
   }

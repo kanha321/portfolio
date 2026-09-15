@@ -11,7 +11,7 @@ import { AboutPage } from './pages/AboutPage'
 export const App = () => {
   return (
     <ThemeProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Layout>
           <Routes>
             <Route path="/" element={<HomePage />} />
