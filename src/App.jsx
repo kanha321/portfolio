@@ -9,9 +9,11 @@ import { ResumePage } from './pages/ResumePage'
 import { AboutPage } from './pages/AboutPage'
 
 export const App = () => {
+  const basename = (import.meta.env.BASE_URL || '/').replace(/\/$/, '')
+
   return (
     <ThemeProvider>
-      <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <BrowserRouter basename={basename}>
         <Layout>
           <Routes>
             <Route path="/" element={<HomePage />} />
