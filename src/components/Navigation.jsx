@@ -28,13 +28,13 @@ export const Navigation = () => {
               <img
                 src={floppyLogo}
                 className="navbar-logo"
-                alt={siteConfig.domain}
+                alt={siteConfig.name}
                 title="💾"
                 height="16"
                 width="16"
               />
             </span>
-            <span className="site-name">{siteConfig.domain}</span>
+            <span className="site-name">{siteConfig.name}</span>
           </Link>
         </div>
       </div>
